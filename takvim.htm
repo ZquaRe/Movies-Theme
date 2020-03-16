@@ -1,0 +1,971 @@
+<!DOCTYPE HTML>
+<html xmlns:og="http://ogp.me/ns#" lang="tr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <title>Dizirun - yabancı dizi izle, yabancı dizi ve film izle</title>
+      <meta name="description" content="Yabancı yapım tv dizi ve filmleriyle tanışmaya hazır olun. Tüm yabancı diziler ve filmler Dizirun sayesinde artık yalnızca bir tık uzağınızda elinizin altında olacak...">
+      <meta property="og:title" content="Dizirun - yabancı dizi izle, yabancı dizi ve film izle">
+      <meta property="og:url" content="https://dizirun.com/">
+      <meta property="og:description" content="Yabancı yapım tv dizi ve filmleriyle tanışmaya hazır olun. Tüm yabancı diziler ve filmler Dizirun sayesinde artık yalnızca bir tık uzağınızda elinizin altında olacak..." />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="" />
+      <meta property="og:image:width" content="220">
+      <meta property="og:image:height" content="125">
+      <meta property="og:locale" content="tr_TR">
+      <link rel="alternate" href="https://dizirun.com/" hreflang="tr" />
+      <link rel="image_src" type="image/png" href="">
+      <link rel="canonical" href="https://dizirun.com/" />
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+      <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+      <link rel="stylesheet" href="assets/css/main.css" />
+   </head>
+   <body>
+      <section class="wrapper mx-auto">
+         <header class="header flex items-center">
+            <div class="mobile-nav-icon block md:hidden">
+               <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
+                  <line x1="3" y1="12" x2="21" y2="12"></line>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <line x1="3" y1="18" x2="21" y2="18"></line>
+               </svg>
+            </div>
+            <div class="logo flex-shrink-0 relative">
+               <a class="flex items-center justify-center" href="/">
+               <img src="assets/images/logo.png">
+               </a>
+               <span class="block absolute">BETA</span>
+            </div>
+            <div class="header-action w-full flex items-center">
+               <div class="main-search relative flex-1 hidden md:block">
+                  <input class="w-full rounded-full focus:outline-none tvSearch" type="text" name="search" autocomplete="off" id="" placeholder="Dizi veya film ara..">
+                  <div class="main-search-icon absolute">
+                     <button class="flex focus:outline-none">
+                        <svg id="search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+                           <circle cx="11" cy="11" r="8"></circle>
+                           <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                     </button>
+                  </div>
+               </div>
+               <div class="header-action-right flex-1 flex justify-end">
+                  <div class="not-logged flex">
+                     <a class="block no-underline" href="javascript:void(0);">Giriş yap</a>
+                     <a class="block no-underline" href="javascript:void(0);">Kayıt ol</a>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <div class="search block md:hidden">
+            <div class="main-search relative flex-1">
+               <input class="w-full rounded-full focus:outline-none tvSearch" type="text" name="search" autocomplete="off" placeholder="Dizi veya film ara..">
+               <div class="main-search-icon absolute">
+                  <button class="flex focus:outline-none">
+                     <svg id="search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="wrapper-inner flex">
+            <aside class="leftbar flex-shrink-0 hidden lg:block">
+               <div class="leftbar-box ">
+                  <h5>Menü</h5>
+                  <ul class="user-left-nav">
+                     <li class="user-left-nav-active">
+                        <a class="flex items-center no-underline" href="/">
+                           <svg id="home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                              <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                           </svg>
+                           Anasayfa
+                        </a>
+                     </li>
+                     <li>
+                        <a class="flex items-center no-underline" href="https://dizirun.com/kesfet">
+                           <svg id="explore" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-compass">
+                              <circle cx="12" cy="12" r="10"></circle>
+                              <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                           </svg>
+                           Keşfet 
+                        </a>
+                     </li>
+                     <li>
+                        <a class="flex items-center no-underline" href="https://dizirun.com/takvim">
+                           <svg id="calendar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+                              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                              <line x1="16" y1="2" x2="16" y2="6"></line>
+                              <line x1="8" y1="2" x2="8" y2="6"></line>
+                              <line x1="3" y1="10" x2="21" y2="10"></line>
+                           </svg>
+                           Dizi Takvimi 
+                        </a>
+                     </li>
+                     <li>
+                        <a class="flex items-center no-underline" href="https://dizirun.com/dizi-izle">
+                           <svg id="series" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tv">
+                              <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
+                              <polyline points="17 2 12 7 7 2"></polyline>
+                           </svg>
+                           Tv Dizileri 
+                        </a>
+                     </li>
+                     <li>
+                        <a class="flex items-center no-underline" href="https://dizirun.com/film-izle">
+                           <svg id="series" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tv">
+                              <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
+                              <polyline points="17 2 12 7 7 2"></polyline>
+                           </svg>
+                           Sinema Filmleri 
+                        </a>
+                     </li>
+                     <li>
+                        <a class="flex items-center no-underline" href="https://dizirun.com/tartismalar">
+                           <svg id="discussion" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square">
+                              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                           </svg>
+                           Tartışmalar 
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="leftbar-box">
+                  <h5>Haftalık Sıralama</h5>
+                  <ul class="trend-week">
+                     <li>
+                        <a class="block no-underline" href="https://dizirun.com/dizi/prison-break">
+                           <h6 class="truncate">Prison Break</h6>
+                           <small class="block">+607169 izleme</small>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="block no-underline" href="https://dizirun.com/dizi/friends">
+                           <h6 class="truncate">Friends</h6>
+                           <small class="block">+203475 izleme</small>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="block no-underline" href="https://dizirun.com/dizi/westworld">
+                           <h6 class="truncate">Westworld</h6>
+                           <small class="block">+165854 izleme</small>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="block no-underline" href="https://dizirun.com/dizi/true-detective">
+                           <h6 class="truncate">True Detective</h6>
+                           <small class="block">+147620 izleme</small>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="block no-underline" href="https://dizirun.com/dizi/the-flash">
+                           <h6 class="truncate">The Flash</h6>
+                           <small class="block">+123215 izleme</small>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="leftbar-box">
+                  <h5>Kullanıcı Sıralaması</h5>
+                  <ul class="trend-week">
+                     <li>
+                        <a class="block no-underline" href="https://dizirun.com/profile/konfortable">
+                           <img src="" alt="">
+                           <h6 class="truncate">konfortable</h6>
+                           <small class="block">19 Level (+23221 puan)</small>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="block no-underline" href="https://dizirun.com/profile/leksus">
+                           <img src="" alt="">
+                           <h6 class="truncate">leksus</h6>
+                           <small class="block">18 Level (+18951 puan)</small>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="block no-underline" href="https://dizirun.com/profile/anonim">
+                           <img src="" alt="">
+                           <h6 class="truncate">anonim</h6>
+                           <small class="block">16 Level (+14501 puan)</small>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="block no-underline" href="https://dizirun.com/profile/octaviablake">
+                           <img src="" alt="">
+                           <h6 class="truncate">octaviablake</h6>
+                           <small class="block">15 Level (+10551 puan)</small>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="block no-underline" href="https://dizirun.com/profile/eyupbaran">
+                           <img src="" alt="">
+                           <h6 class="truncate">eyupbaran</h6>
+                           <small class="block">14 Level (+8811 puan)</small>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </aside>
+            <main class="content">
+                    <div class="content-inner">
+                    <div class="page flex justify-between">
+                    <div class="page-title">
+                    <h1>Dizi Takvimi</h1>
+                    </div>
+                    </div>
+                    <div class="calendar">
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Pazar</p>
+                    <span class="block">01</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <ul class="flex flex-wrap">
+                    <li class="w-full sm:w-1/2 md:w-1/3" itemscope="" itemtype="http://schema.org/TVSeries">
+                    <div class="poster-xs">
+                    <a class="flex items-center no-underline relative" href="https://dizirun.com/dizi/yabanci/sezon-1/bolum-9">
+                    <div class="poster-xs-image flex-shrink-0"><img class="lazy-wc loaded" data-src="https://dizirun.com/uploads/series/thumb/yabanci.jpg" alt="Yabancı" src="https://dizirun.com/uploads/series/thumb/yabanci.jpg" data-was-processed="true"></div>
+                    <div class="poster-xs-subject">
+                    <h2 class="truncate" itemprop="name">Yabancı</h2>
+                    <div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue" content="5"></span>
+                    <span itemprop="bestRating" content="5"></span>
+                    <span itemprop="ratingCount" content="24528"></span>
+                    </div>
+                    <p>Sezon 1 · Bölüm 9</p>
+                    <div itemprop="season" itemscope="" itemtype="http://schema.org/TVSeason">
+                    <span itemprop="name" content="1"></span>
+                    <meta itemprop="datePublished" content="2020-03-11">
+                    <div itemprop="episode" itemscope="" itemtype="http://schema.org/TVEpisode">
+                    <span itemprop="name" content="After obscuring their true purpose in town from local police, Ralph and Yunis interview witnesses from the cave festival, while Holly and Andy visit the scene. Later, the group considers its next move as Claude deals with the weight of his role."></span>
+                    <meta itemprop="episodeNumber" content="9">
+                    </div>
+                    </div>
+                    </div>
+                    </a>
+                    </div>
+                    </li>
+                    <li class="w-full sm:w-1/2 md:w-1/3" itemscope="" itemtype="http://schema.org/TVSeries">
+                    <div class="poster-xs">
+                    <a class="flex items-center no-underline relative" href="https://dizirun.com/dizi/kidding/sezon-2/bolum-7">
+                    <div class="poster-xs-image flex-shrink-0"><img class="lazy-wc loaded" data-src="https://dizirun.com/uploads/series/thumb/kidding.jpg" alt="Kidding" src="https://dizirun.com/uploads/series/thumb/kidding.jpg" data-was-processed="true"></div>
+                    <div class="poster-xs-subject">
+                    <h2 class="truncate" itemprop="name">Kidding</h2>
+                    <div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue" content="5"></span>
+                    <span itemprop="bestRating" content="5"></span>
+                    <span itemprop="ratingCount" content="12614"></span>
+                    </div>
+                    <p>Sezon 2 · Bölüm 7</p>
+                    <div itemprop="season" itemscope="" itemtype="http://schema.org/TVSeason">
+                    <span itemprop="name" content="2"></span>
+                    <meta itemprop="datePublished" content="2020-03-13">
+                    <div itemprop="episode" itemscope="" itemtype="http://schema.org/TVEpisode">
+                    <span itemprop="name" content="Deirdre deals with a medical issue while attending Jeff’s Lifetime Achievement Award ceremony. Jeff tries to be anyone but himself. Seb meets someone old and someone new."></span>
+                    <meta itemprop="episodeNumber" content="7">
+                    </div>
+                    </div>
+                    </div>
+                    </a>
+                    </div>
+                    </li>
+                    <li class="w-full sm:w-1/2 md:w-1/3" itemscope="" itemtype="http://schema.org/TVSeries">
+                    <div class="poster-xs">
+                    <a class="flex items-center no-underline relative" href="https://dizirun.com/dizi/kidding/sezon-2/bolum-8">
+                    <div class="poster-xs-image flex-shrink-0"><img class="lazy-wc loaded" data-src="https://dizirun.com/uploads/series/thumb/kidding.jpg" alt="Kidding" src="https://dizirun.com/uploads/series/thumb/kidding.jpg" data-was-processed="true"></div>
+                    <div class="poster-xs-subject">
+                    <h2 class="truncate" itemprop="name">Kidding</h2>
+                    <div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue" content="5"></span>
+                    <span itemprop="bestRating" content="5"></span>
+                    <span itemprop="ratingCount" content="12614"></span>
+                    </div>
+                    <p>Sezon 2 · Bölüm 8</p>
+                    <div itemprop="season" itemscope="" itemtype="http://schema.org/TVSeason">
+                    <span itemprop="name" content="2"></span>
+                    <meta itemprop="datePublished" content="2020-03-13">
+                    <div itemprop="episode" itemscope="" itemtype="http://schema.org/TVEpisode">
+                    <span itemprop="name" content="Jeff decides to start a new Pickles family while Deirdre tries to get some good PR for the show."></span>
+                    <meta itemprop="episodeNumber" content="8">
+                    </div>
+                    </div>
+                    </div>
+                    </a>
+                    </div>
+                    </li>
+                    </ul>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Pazartesi</p>
+                    <span class="block">02</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <ul class="flex flex-wrap">
+                    <li class="w-full sm:w-1/2 md:w-1/3" itemscope="" itemtype="http://schema.org/TVSeries">
+                    <div class="poster-xs">
+                    <a class="flex items-center no-underline relative" href="https://dizirun.com/dizi/the-walking-dead/sezon-10/bolum-10">
+                    <div class="poster-xs-image flex-shrink-0"><img class="lazy-wc loaded" data-src="https://dizirun.com/uploads/series/thumb/the-walking-dead.jpg" alt="The Walking Dead" src="https://dizirun.com/uploads/series/thumb/the-walking-dead.jpg" data-was-processed="true"></div>
+                    <div class="poster-xs-subject">
+                    <h2 class="truncate" itemprop="name">The Walking Dead</h2>
+                    <div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue" content="5"></span>
+                    <span itemprop="bestRating" content="5"></span>
+                    <span itemprop="ratingCount" content="813652"></span>
+                    </div>
+                    <p>Sezon 10 · Bölüm 10</p>
+                    <div itemprop="season" itemscope="" itemtype="http://schema.org/TVSeason">
+                    <span itemprop="name" content="10"></span>
+                    <meta itemprop="datePublished" content="2020-02-15">
+                    <div itemprop="episode" itemscope="" itemtype="http://schema.org/TVEpisode">
+                    <span itemprop="name" content="Our group must defend Alexandria from a threatening, outside force."></span>
+                    <meta itemprop="episodeNumber" content="10">
+                    </div>
+                    </div>
+                    </div>
+                    </a>
+                    </div>
+                    </li>
+                    </ul>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Salı</p>
+                    <span class="block">03</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Çarşamba</p>
+                    <span class="block">04</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Perşembe</p>
+                    <span class="block">05</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Cuma</p>
+                    <span class="block">06</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Cumartesi</p>
+                    <span class="block">07</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Pazar</p>
+                    <span class="block">08</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <ul class="flex flex-wrap">
+                    <li class="w-full sm:w-1/2 md:w-1/3" itemscope="" itemtype="http://schema.org/TVSeries">
+                     <div class="poster-xs">
+                    <a class="flex items-center no-underline relative" href="https://dizirun.com/dizi/yabanci/sezon-1/bolum-10">
+                    <div class="poster-xs-image flex-shrink-0"><img class="lazy-wc" data-src="https://dizirun.com/uploads/series/thumb/yabanci.jpg" alt="Yabancı"></div>
+                    <div class="poster-xs-subject">
+                    <h2 class="truncate" itemprop="name">Yabancı</h2>
+                    <div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue" content="5"></span>
+                    <span itemprop="bestRating" content="5"></span>
+                    <span itemprop="ratingCount" content="24528"></span>
+                    </div>
+                    <p>Sezon 1 · Bölüm 10</p>
+                    <div itemprop="season" itemscope="" itemtype="http://schema.org/TVSeason">
+                    <span itemprop="name" content="1"></span>
+                    <meta itemprop="datePublished" content="2020-03-11">
+                    <div itemprop="episode" itemscope="" itemtype="http://schema.org/TVEpisode">
+                    <span itemprop="name" content="The group finds itself in a climactic showdown in their last-ditch, desperate attempt to root out El Coco."></span>
+                    <meta itemprop="episodeNumber" content="10">
+                    </div>
+                    </div>
+                    </div>
+                    </a>
+                    </div>
+                    </li>
+                    <li class="w-full sm:w-1/2 md:w-1/3" itemscope="" itemtype="http://schema.org/TVSeries">
+                    <div class="poster-xs">
+                    <a class="flex items-center no-underline relative" href="https://dizirun.com/dizi/kidding/sezon-2/bolum-9">
+                    <div class="poster-xs-image flex-shrink-0"><img class="lazy-wc" data-src="https://dizirun.com/uploads/series/thumb/kidding.jpg" alt="Kidding"></div>
+                    <div class="poster-xs-subject">
+                    <h2 class="truncate" itemprop="name">Kidding</h2>
+                    <div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue" content="5"></span>
+                    <span itemprop="bestRating" content="5"></span>
+                    <span itemprop="ratingCount" content="12614"></span>
+                    </div>
+                    <p>Sezon 2 · Bölüm 9</p>
+                    <div itemprop="season" itemscope="" itemtype="http://schema.org/TVSeason">
+                    <span itemprop="name" content="2"></span>
+                    <meta itemprop="datePublished" content="2020-03-13">
+                    <div itemprop="episode" itemscope="" itemtype="http://schema.org/TVEpisode">
+                     <span itemprop="name" content="Jeff learns the safest place for him is far away from everyone. Will talks to a mysterious visitor at his school. With Maddy’s help, Deirdre gets a win for the show."></span>
+                    <meta itemprop="episodeNumber" content="9">
+                    </div>
+                    </div>
+                    </div>
+                    </a>
+                    </div>
+                    </li>
+                    <li class="w-full sm:w-1/2 md:w-1/3" itemscope="" itemtype="http://schema.org/TVSeries">
+                    <div class="poster-xs">
+                    <a class="flex items-center no-underline relative" href="https://dizirun.com/dizi/kidding/sezon-2/bolum-10">
+                    <div class="poster-xs-image flex-shrink-0"><img class="lazy-wc" data-src="https://dizirun.com/uploads/series/thumb/kidding.jpg" alt="Kidding"></div>
+                    <div class="poster-xs-subject">
+                    <h2 class="truncate" itemprop="name">Kidding</h2>
+                    <div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue" content="5"></span>
+                    <span itemprop="bestRating" content="5"></span>
+                    <span itemprop="ratingCount" content="12614"></span>
+                    </div>
+                    <p>Sezon 2 · Bölüm 10</p>
+                    <div itemprop="season" itemscope="" itemtype="http://schema.org/TVSeason">
+                    <span itemprop="name" content="2"></span>
+                    <meta itemprop="datePublished" content="2020-03-13">
+                    <div itemprop="episode" itemscope="" itemtype="http://schema.org/TVEpisode">
+                    <span itemprop="name" content="Jill asks Jeff a question he isn’t sure if he can answer. Season finale"></span>
+                    <meta itemprop="episodeNumber" content="10">
+                    </div>
+                    </div>
+                    </div>
+                    </a>
+                    </div>
+                    </li>
+                    </ul>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Pazartesi</p>
+                    <span class="block">09</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <ul class="flex flex-wrap">
+                    <li class="w-full sm:w-1/2 md:w-1/3" itemscope="" itemtype="http://schema.org/TVSeries">
+                    <div class="poster-xs">
+                    <a class="flex items-center no-underline relative" href="https://dizirun.com/dizi/the-walking-dead/sezon-10/bolum-11">
+                    <div class="poster-xs-image flex-shrink-0"><img class="lazy-wc" data-src="https://dizirun.com/uploads/series/thumb/the-walking-dead.jpg" alt="The Walking Dead"></div>
+                    <div class="poster-xs-subject">
+                    <h2 class="truncate" itemprop="name">The Walking Dead</h2>
+                    <div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue" content="5"></span>
+                    <span itemprop="bestRating" content="5"></span>
+                    <span itemprop="ratingCount" content="813652"></span>
+                    </div>
+                    <p>Sezon 10 · Bölüm 11</p>
+                    <div itemprop="season" itemscope="" itemtype="http://schema.org/TVSeason">
+                    <span itemprop="name" content="10"></span>
+                    <meta itemprop="datePublished" content="2020-02-15">
+                    <div itemprop="episode" itemscope="" itemtype="http://schema.org/TVEpisode">
+                    <span itemprop="name" content=""></span>
+                    <meta itemprop="episodeNumber" content="11">
+                    </div>
+                    </div>
+                    </div>
+                    </a>
+                    </div>
+                    </li>
+                    </ul>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Salı</p>
+                    <span class="block">10</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Çarşamba</p>
+                    <span class="block">11</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Perşembe</p>
+                    <span class="block">12</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Cuma</p>
+                    <span class="block">13</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Cumartesi</p>
+                    <span class="block">14</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Pazar</p>
+                    <span class="block">15</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Pazartesi</p>
+                    <span class="block">16</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Salı</p>
+                    <span class="block">17</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Çarşamba</p>
+                    <span class="block">18</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Perşembe</p>
+                    <span class="block">19</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Cuma</p>
+                    <span class="block">20</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Cumartesi</p>
+                    <span class="block">21</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Pazar</p>
+                    <span class="block">22</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Pazartesi</p>
+                    <span class="block">23</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Salı</p>
+                    <span class="block">24</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Çarşamba</p>
+                    <span class="block">25</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Perşembe</p>
+                    <span class="block">26</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Cuma</p>
+                    <span class="block">27</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <ul class="flex flex-wrap">
+                    <li class="w-full sm:w-1/2 md:w-1/3" itemscope="" itemtype="http://schema.org/TVSeries">
+                    <div class="poster-xs">
+                    <a class="flex items-center no-underline relative" href="https://dizirun.com/dizi/ozark/sezon-3/bolum-1">
+                    <div class="poster-xs-image flex-shrink-0"><img class="lazy-wc" data-src="https://dizirun.com/uploads/series/thumb/ozark.jpg" alt="Ozark"></div>
+                    <div class="poster-xs-subject">
+                    <h2 class="truncate" itemprop="name">Ozark</h2>
+                    <div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue" content="5"></span>
+                    <span itemprop="bestRating" content="5"></span>
+                    <span itemprop="ratingCount" content="120677"></span>
+                    </div>
+                    <p>Sezon 3 · Bölüm 1</p>
+                    <div itemprop="season" itemscope="" itemtype="http://schema.org/TVSeason">
+                    <span itemprop="name" content="3"></span>
+                    <meta itemprop="datePublished" content="2020-03-13">
+                    <div itemprop="episode" itemscope="" itemtype="http://schema.org/TVEpisode">
+                    <span itemprop="name" content=""></span>
+                    <meta itemprop="episodeNumber" content="1">
+                    </div>
+                    </div>
+                    </div>
+                    </a>
+                    </div>
+                    </li>
+                    </ul>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Cumartesi</p>
+                    <span class="block">28</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Pazar</p>
+                    <span class="block">29</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Pazartesi</p>
+                    <span class="block">30</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="calendar-box flex items-start flex-col sm:flex-row">
+                    <div class="calendar-date flex-shrink-0">
+                    <p>Salı</p>
+                    <span class="block">31</span>
+                    <p>Mart</p>
+                    </div>
+                    <div class="calendar-items">
+                    <div class="flex items-center main-alert text-white text-sm font-bold px-4 py-3" role="alert">
+                    <svg class="flex-shrink-0 fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"></path></svg>
+                    <p>Malesef bugün dizi yok. Biraz dışarı çıkıp dolaşmaya ne dersin ?</p>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </main>
+         </div>
+         <footer class="footer">
+            <div class="footer-top flex flex-wrap">
+               <div class="footer-top-left w-1/4">
+                  <div class="footer-logo"><a class="flex" href="/">
+                     </a>
+                  </div>
+               </div>
+               <div class="footer-top-right flex md:justify-end w-full md:w-3/4">
+                  <ul class="flex">
+                     <li>
+                        <a class="flex no-underline" target="_blank" href="https://www.facebook.com/dizirun">
+                           <div class="social flex items-center">
+                              <div class="social-icon flex items-center justify-center rounded-full">
+                                 <svg id="facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                 </svg>
+                              </div>
+                              <div class="social-text flex-shrink-0">
+                                 <span class="block">Facebook</span>
+                                 <p>Beğen</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="flex no-underline" target="_blank" href="https://twitter.com/dizirun1">
+                           <div class="social flex items-center">
+                              <div class="social-icon flex items-center justify-center rounded-full">
+                                 <svg id="twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+                                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                 </svg>
+                              </div>
+                              <div class="social-text flex-shrink-0">
+                                 <span class="block">Twitter</span>
+                                 <p>Takip et</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a class="flex no-underline" target="_blank" href="https://instagram.com/dizirun1">
+                           <div class="social flex items-center">
+                              <div class="social-icon flex items-center justify-center rounded-full">
+                                 <svg id="instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+                                 </svg>
+                              </div>
+                              <div class="social-text flex-shrink-0">
+                                 <span class="block">Instagram</span>
+                                 <p>Takip et</p>
+                              </div>
+                           </div>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="footer-middle">
+               <div class="flex flex-wrap">
+                  <div class="w-full lg:w-1/3">
+                     <h6>Popüler Türler</h6>
+                     <div class="flex flex-wrap">
+                        <ul class="w-full lg:w-1/2">
+                           <li><a class="flex no-underline" href="https://dizirun.com/film/tur/romantik">Romantik Filmleri izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/film/tur/dram">Dram Filmleri izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/film/tur/tarih">Tarih Filmleri izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/film/tur/animasyon">Animasyon Filmleri izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/film/tur/anime">Anime Filmleri izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/tur/mini-dizi">Mini Dizi Dizileri izle</a></li>
+                        </ul>
+                        <ul class="w-full lg:w-1/2">
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/tur/aile">Aile Dizileri izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/tur/savas">Savaş Dizileri izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/tur/biyografi">Biyografi Dizileri izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/tur/gizem">Gizem Dizileri izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/tur/fantastik">Fantastik Dizileri izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/tur/belgesel">Belgesel Dizileri izle</a></li>
+                        </ul>
+                        <ul class="w-full lg:w-1/2"> </ul>
+                     </div>
+                  </div>
+                  <div class="w-full lg:w-1/3">
+                     <h6>Öne Çıkan Dizi ve Filmler</h6>
+                     <div class="flex flex-wrap">
+                        <ul class="w-full lg:w-1/2">
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/prison-break">Prison Break izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/game-of-thrones">Game of Thrones izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/chernobyl">Chernobyl izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/friends">Friends izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/westworld">Westworld izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/true-detective">True Detective izle</a></li>
+                        </ul>
+                        <ul class="w-full lg:w-1/2">
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/the-flash">The Flash izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/fringe">Fringe izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/house">House izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/how-i-met-your-mother">How I Met Your Mother izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/supernatural">Supernatural izle</a></li>
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/agents-of-s-h-i-e-l-d">Agents of S.H.I.E.L.D. izle</a></li>
+                        </ul>
+                        <ul class="w-full lg:w-1/2"> </ul>
+                     </div>
+                  </div>
+                  <div class="w-full lg:w-1/3">
+                     <h6>Popüler Dizi ve Filmler</h6>
+                     <div class="flex flex-wrap">
+                        <ul class="w-full lg:w-1/2">
+                           <li><a class="flex no-underline" href="https://dizirun.com/dizi/breaking-bad">Breaking Bad izle</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-bottom">
+               <p>
+                  Çalışmaktan, derslerden yorulduğun çok yorucu, sıkıcı birgün müydü? Kendini neşelendirmek ve eğlenmek istediğini biliyoruz. Dizirun'da bedava online
+                  yabancı film ve yabancı dizi
+                  izlemeye başla! Fantastik bir film veya dizi her zaman, gün sonuna kadar pozitif ve enerjik kalmanda yardımcı olur.
+               </p>
+               <p>
+                  Bugün, beyazperde olmadan hayatımızı hayal etmek çok zor olsa gerek. İnsan faaliyetinin hemen hemen tüm alanlarını kapsar. Bir asırdan birazcık daha çok olsa da, bu sanat devamlı olarak iyileştirilmekte ve daha iyiye doğru değişmektedir. Bugüne dek çok sayıda yabancı film, yabancı dizi çekildi, neredeyse her gün dünya genelinde birçok yerde prömiyerler var. Sadece çağıl yaşam her insanın hızlı adımlarla istenen her filme, istenen heryerde ulaşmayı gerektirmektedir. Bu durumda, mükemmel alternatif Dizirun. Bugün ev ya da ofisten çıkmadan, full HD kalitede en iyi Türkçe dublajlı filmleri, Türkçe alt yazılı dizileri görebilirsin ve tüm bu eğlenceyi siteye kayıt olarak bir üst seviyeye taşıyabilirsin. Film dizi arşivimiz, ABD (Hollywood) başta olmak üzere yabancı üretim olarak çok sayıda full HD film ve diziye sahiptir. Sunulan film ve diziler seni üzecek ya da mutlu edecek, geleceğe bakacak veya geçmişi hatırlatacak, seni fantastik dünyaya ve ürpertici bir dehşete sokacak ve bununla birlikte oldukça yeni ve ilginç şeyleri öğrenmene yardımcı olacaktır. Sevdiklerinle beraber romantik bir dram izleyerek güzel bir akşam geçirmek, çok iyi bir fikir! Tüm ailenle 2019'da ilginç aile filmleri izleyebilir, komik komedi dizi filmleriyle eğlenebilirsin. Çocuklarla beraber online macera türünde full HD film dizi izleyebilirsin. Sitemizin öne çıkan özelliği, keşfet ile en iyi film ve dizileri bulmak için tasarlanan kategorilerdeki sıralamaların yanı sıra özel bir yabancı dizi filtresidir. Yüksek kalitede full HD dizi ve filmler, soluk kesecek, fantastik, tehlike dolu yada çok gerçek bir dünyaya kendini kaptırmanı elde edecektir. Şimdi menüden keşfete dokunarak HD, 1080p kalitesinde
+                  <a href="https://dizirun.com/">yabancı dizi izle</a>
+                  veya HD kalitede
+                  <a href="https://dizirun.com/">film izle</a>.
+               </p>
+               <p>
+                  Dizirun'da yer alan tüm film ve diziler "video paylaşım siteleri" aracılığıyla paylaşılmaktadır. Dizirun kendi sunucularında herhangi bir video barındırmadığından bu konuda bir telif hakkı sorumluluğu kabul etmemektedir. Sitemizde bulunan bir içeriğin telif hakkını ihlal ettiğini düşünüyorsanız, telif hakkının size ait olduğunu gösterir belgeler ile birlikte
+                  <a class="maillink" href="/cdn-cgi/l/email-protection#1074796a7962657e737f7d5069717e7475683e737f7d"><span class="__cf_email__" data-cfemail="14707d6e7d66617a777b79546d757a70716c3a777b79">[email&#160;protected]</span></a>
+                  e-posta adresinden kaldırılmasını talep edebilirsin.
+               </p>
+            </div>
+         </footer>
+      </section>
+      
+      <script data-cfasync="false" src="assets/js/email-decode.min.js"></script>
+      <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+      <script type="text/javascript" src="assets/js/main.js"></script>
+   </body>
+</html>
